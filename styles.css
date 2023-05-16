@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.background-photo {
+    width: 700px;
+    height: 100%;
+}

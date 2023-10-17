@@ -9,9 +9,7 @@
     </head>
     <body>
         <div class="image-title">
-            <div class="website-title">
-                <h1>ODIN</h1>
-            </div>
+            <h1>ODIN</h1>  
             <img class="background-photo" src="images/shingo-matsui-uO97oiABZWg-unsplash.jpg" alt="Background photo">
         </div>
         <div class="sign-up-area">
@@ -20,29 +18,33 @@
             <h3>You know you want to.</h3>
             <h3>Let's do this!</h3>
             <form action="#">
-                <div class="input">
-                    <label for="first-name">First name</label>
-                    <input type="text" name="first-name" id="first-name" required>
+                <div class="left-side-signup">
+                    <div class="input">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="last-name">Last name</label>
-                    <input type="text" name="last-name" id="last-name" required>
-                </div>
-                <div class="input">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="input">
-                    <label for="phone-number">Phone number</label>
-                    <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
-                </div>
-                <div class="input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-                <div class="input">
-                    <label for="confirm-password">Confirm password</label>
-                    <input type="password" name="confirm-password" id="confirm password" required>
+                <div class="right-side-signup">
+                    <div class="input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                    </div>
+                    <div class="input">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="password" name="confirm-password" id="confirm password" required>
+                    </div>
                 </div>
                 <button type="submit">Create Account</button>
             </form>
